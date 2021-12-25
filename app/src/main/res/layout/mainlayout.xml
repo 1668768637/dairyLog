@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/bg_main">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50px" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="长路漫漫，唯剑作伴"
+        android:textSize="36sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="130px"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_toDairyWrite"
+            android:layout_width="540px"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:text="写日记" />
+
+        <Button
+            android:id="@+id/btn_toDairyRead"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:text="查看日记"></Button>
+
+    </LinearLayout>
+
+</LinearLayout>

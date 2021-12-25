@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/dairybackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="90px" />
+
+        <EditText
+            android:id="@+id/dairy_editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="    天气：" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/dairy_confirm"
+                android:layout_width="206dp"
+                android:layout_height="wrap_content"
+                android:text="确认" />
+
+            <Button
+                android:id="@+id/dairy_out"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="退出" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

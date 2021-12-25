@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dairybackground">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="90px"></Space>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/dairy_read_date"
+            android:layout_width="880px"
+            android:layout_height="match_parent"></EditText>
+
+        <Button
+            android:id="@+id/btn_dairy_read_confirmDate"
+            android:layout_width="200px"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:text="查看"></Button>
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/dairy_readTextview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:text="不知道该显示什么"></TextView>
+
+    </ScrollView>
+</LinearLayout>
