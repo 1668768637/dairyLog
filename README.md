@@ -1,2 +1,2 @@
 # dairyLog
-一个写日记的app，功能很简单，也没有使用到什么复杂的组件
+An app to log dailylife
